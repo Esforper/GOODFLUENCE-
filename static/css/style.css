@@ -1,0 +1,20 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Sayfa içeriğini büyütmek için */
+    padding-bottom: 1rem; /* Footer ile içerik arasında boşluk */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background: #333;
+    color: #fff;
+    margin-top: auto; /* Footer'ı sayfanın en altına taşır */
+}
