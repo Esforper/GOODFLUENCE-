@@ -31,6 +31,6 @@ GOODFLUENCE, kullanıcıların sosyal etkinlikler oluşturmasına, katılmasına
 - ✅ Katılım onayı ile etkinlik takibi  
 - 🌐 Web tabanlı platform
 
----
+
 
 
