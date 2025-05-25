@@ -1,9 +1,9 @@
 [
     {
         "id": 2,
-        "name": "Kızılay toplu kan bağışı etkinliği",
+        "name": "Kızılay Kan Bağışı Etkinliği",
         "description": "kızılay etkinliği testi",
-        "image": "fd01df36-0ab2-42ec-b5de-9e21a3c125ef.webp",
+        "image": "image.png",
         "date": "2025-03-31 18:24:23",
         "is_following": false,
         "attendee_count": 0,

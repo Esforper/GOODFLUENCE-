@@ -23,5 +23,23 @@
         "text": "muazzam bir etkinlik",
         "likes": 1,
         "date": "2025-05-25 18:39:43"
+    },
+    {
+        "id": 4,
+        "event_id": 4,
+        "author": "sevval demir",
+        "user_id": 1,
+        "text": "Merakla bekliyorum",
+        "likes": 0,
+        "date": "2025-05-25 20:02:14"
+    },
+    {
+        "id": 5,
+        "event_id": 6,
+        "author": "sevval demir",
+        "user_id": 1,
+        "text": "Güzel bir meditasyon olacak ",
+        "likes": 0,
+        "date": "2025-05-25 20:03:03"
     }
 ]
