@@ -4,13 +4,28 @@
         "name": "deneme etkinliği",
         "description": "deneme metni",
         "image": "bd1f9602-5a5a-4df7-b56d-b5ca59b7c5dc.jpg",
-        "date": "2025-03-31 18:23:53"
+        "date": "2025-03-31 18:23:53",
+        "is_following": false,
+        "attendee_count": 0,
+        "is_attending": false
     },
     {
         "id": 2,
         "name": "Kızılay toplu kan bağışı etkinliği",
         "description": "kızılay etkinliği testi",
         "image": "fd01df36-0ab2-42ec-b5de-9e21a3c125ef.webp",
-        "date": "2025-03-31 18:24:23"
+        "date": "2025-03-31 18:24:23",
+        "is_following": false,
+        "attendee_count": 0,
+        "is_attending": false
+    },
+    {
+        "id": 3,
+        "name": "deneme etkinliği",
+        "description": "Deneme etkinliği açıklaması",
+        "category": "Sosyal",
+        "image": "278fd985-5613-486a-8377-99c6787fae67.jpg",
+        "date": "2025-05-25 18:39:23",
+        "creator_id": 1
     }
 ]

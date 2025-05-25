@@ -1,67 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etkinlik Yükle</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+{% extends "base.html" %}
 
-    <style>
-        body {
-            background-color: #f8f9fa;
-        }
-        .form-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .card {
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 500px;
-            width: 100%;
-        }
-        .card h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .form-label {
-            font-weight: bold;
-        }
-    </style>
-</head>
-<body>
+{% block title %}Etkinlik Oluştur - Etkinlik Platformu{% endblock %}
 
-<div class="container form-container">
-    <div class="card">
-        <h2>Yeni Etkinlik Yükle</h2>
-        <form method="POST" enctype="multipart/form-data">
-            <div class="mb-3">
-                <label for="event_name" class="form-label">Etkinlik İsmi:</label>
-                <input type="text" name="event_name" id="event_name" class="form-control" required>
+{% block content %}
+<div class="row justify-content-center mt-4">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow">
+            <div class="card-header text-center bg-primary text-white">
+                <h4><i class="fas fa-plus me-2"></i>Yeni Etkinlik Oluştur</h4>
             </div>
+            <div class="card-body">
+                <form method="POST" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="event_name" class="form-label">Etkinlik Adı</label>
+                        <input type="text" name="event_name" id="event_name" class="form-control" required>
+                    </div>
 
-            <div class="mb-3">
-                <label for="event_description" class="form-label">Etkinlik Açıklaması:</label>
-                <textarea name="event_description" id="event_description" class="form-control" rows="4" required></textarea>
-            </div>
+                    <div class="mb-3">
+                        <label for="event_category" class="form-label">Kategori</label>
+                        <select name="event_category" id="event_category" class="form-select" required>
+                            <option value="">Kategori Seçin</option>
+                            {% for category in categories %}
+                                <option value="{{ category }}">{{ category }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
 
-            <div class="mb-3">
-                <label for="event_image" class="form-label">Etkinlik Resmi:</label>
-                <input type="file" name="event_image" id="event_image" class="form-control" required>
-            </div>
+                    <div class="mb-3">
+                        <label for="event_description" class="form-label">Etkinlik Açıklaması</label>
+                        <textarea name="event_description" id="event_description" class="form-control" rows="4" required></textarea>
+                    </div>
 
-            <div class="d-grid">
-                <button type="submit" class="btn btn-primary btn-lg">Etkinlik Yükle</button>
+                    <div class="mb-3">
+                        <label for="event_image" class="form-label">Etkinlik Resmi</label>
+                        <input type="file" name="event_image" id="event_image" class="form-control" 
+                               accept="image/*" required>
+                        <div class="form-text">Maksimum dosya boyutu: 16MB</div>
+                    </div>
+
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <i class="fas fa-upload me-2"></i>Etkinlik Oluştur
+                        </button>
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
 </div>
-
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+{% endblock %}
