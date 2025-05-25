@@ -4,7 +4,6 @@
 
 GOODFLUENCE, kullanıcıların sosyal etkinlikler oluşturmasına, katılmasına, içerik paylaşmasına ve birbirleriyle etkileşim kurmasına olanak tanıyan bir **sosyal sorumluluk platformudur**. Hedefimiz, dijital dayanışmayı artırmak ve sosyal fayda odaklı projeleri daha geniş kitlelere ulaştırmaktır.
 
----
 
 ## 🧠 Proje Amacı
 
@@ -12,7 +11,7 @@ GOODFLUENCE, kullanıcıların sosyal etkinlikler oluşturmasına, katılmasına
 - Topluluklar arasında iletişimi ve iş birliğini artırmak  
 - Etkinlik tabanlı sosyal etkileşim sağlamak  
 
----
+
 
 ## 🎯 Hedefler
 
@@ -20,7 +19,7 @@ GOODFLUENCE, kullanıcıların sosyal etkinlikler oluşturmasına, katılmasına
 - ✅ Etkinliklere yorum, beğeni ve paylaşım özelliklerinin entegre edilmesi
 - ✅ Profil sistemi ile kullanıcıların takip ettiği etkinlikleri ve katılımcıları görüntüleyebilmesi
 
----
+
 
 ## 📌 Özellikler
 
