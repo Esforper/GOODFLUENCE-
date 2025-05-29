@@ -1,45 +1,11 @@
 [
     {
         "id": 1,
-        "event_id": 2,
-        "author": "ömer",
-        "text": "test yorumu",
-        "likes": 1,
-        "date": "2025-03-31 18:24:36"
-    },
-    {
-        "id": 2,
-        "event_id": 2,
-        "author": "Mehmet",
-        "text": "Bu etkinlik çok iyi duruyor, katılmayı düşünüyorum.",
-        "likes": 1,
-        "date": "2025-03-31 19:49:13"
-    },
-    {
-        "id": 3,
-        "event_id": 3,
-        "author": "omer.dolanbay",
-        "user_id": 1,
-        "text": "muazzam bir etkinlik",
-        "likes": 1,
-        "date": "2025-05-25 18:39:43"
-    },
-    {
-        "id": 4,
-        "event_id": 4,
+        "event_id": 1,
         "author": "sevval demir",
         "user_id": 1,
-        "text": "Merakla bekliyorum",
+        "text": "heyecanla bekliyoruz.",
         "likes": 0,
-        "date": "2025-05-25 20:02:14"
-    },
-    {
-        "id": 5,
-        "event_id": 6,
-        "author": "sevval demir",
-        "user_id": 1,
-        "text": "Güzel bir meditasyon olacak ",
-        "likes": 0,
-        "date": "2025-05-25 20:03:03"
+        "date": "2025-05-29 13:06:46"
     }
 ]

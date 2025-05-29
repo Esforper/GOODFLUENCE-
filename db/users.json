@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "username": "sevval demir",
+        "email": "sevvaldemir@gmail.com",
+        "password": "scrypt:32768:8:1$c3CjJDV5XxZZRAk9$150477bd8f64d090d50e54a98ad8a738ceaa8e66c8b1a4c1d590af2392abf50820611e0f5348c85978b1e796b3575b5f4a68b73b3bea7531ce88316ab8b4253a",
+        "created_at": "2025-05-29 13:03:12"
+    }
+]

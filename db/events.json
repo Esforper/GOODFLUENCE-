@@ -1,70 +1,11 @@
 [
     {
-        "id": 2,
-        "name": "Kızılay Kan Bağışı Etkinliği",
-        "description": "kızılay etkinliği testi",
-        "image": "image.png",
-        "date": "2025-03-31 18:24:23",
-        "is_following": false,
-        "attendee_count": 0,
-        "is_attending": false,
-        "creator_name": "Bilinmiyor"
-    },
-    {
-        "id": 4,
-        "name": "ISTECH'25",
-        "description": "ISTECH’25, blockchain, yapay zeka ve siber güvenlik gibi alanlarda düzenlenen oturumlarıyla dikkat çeken bir teknoloji zirvesidir.",
-        "category": "Teknoloji",
-        "image": "0be8fe25-9ee0-40ef-b833-5b1202aee0ba.jpg",
-        "date": "2025-05-25 19:29:07",
-        "creator_id": 1,
-        "is_following": false,
-        "attendee_count": 0,
-        "is_attending": false
-    },
-    {
-        "id": 5,
-        "name": "Kısa Film Gecesi – Sosyal Etki Temalı",
-        "description": "Katılımcılar kendi çektiği veya önerdiği kısa filmleri platformda paylaşır. Belirli bir gün online oylama + yorum yapılır.",
-        "category": "Sanat",
-        "image": "381752c6-8f28-4d09-9cf1-a5828c252fb4.jpg",
-        "date": "2025-05-25 19:47:01",
-        "creator_id": 1,
-        "is_following": false,
-        "attendee_count": 0,
-        "is_attending": false
-    },
-    {
-        "id": 6,
+        "id": 1,
         "name": "Topluluk Meditasyonu & Yoga",
-        "description": "Sabah saatlerinde topluluk halinde yapılan online/yüz yüze meditasyon etkinliği.\r\n\r\n",
-        "category": "Sağlık",
-        "image": "6a24fb87-44fc-467f-97df-01c67144466b.jpg",
-        "date": "2025-05-25 19:48:04",
-        "creator_id": 1,
-        "is_following": false,
-        "attendee_count": 0,
-        "is_attending": false
-    },
-    {
-        "id": 7,
-        "name": " Kadınlar İçin Teknoloji Günü",
-        "description": "Kadın yazılımcıların projelerini tanıttığı, mentörlük seanslarının yapıldığı bir destek etkinliği.",
+        "description": "Sosyal bağları güçlendirmek için meditasyon etkinliğimize hoşgeldiniz",
         "category": "Sosyal",
-        "image": "315efe04-b6a7-422b-86a5-31fe377b7874.jpg",
-        "date": "2025-05-25 19:49:18",
-        "creator_id": 1,
-        "is_following": false,
-        "attendee_count": 0,
-        "is_attending": false
-    },
-    {
-        "id": 8,
-        "name": "Kitap Takas & Söyleşi Günü",
-        "description": "Katılımcıların sevdikleri kitapları takas ettiği, kısa hikayelerini paylaştığı ve yazarlarla mini söyleşilerin yapıldığı bir kültürel buluşma.",
-        "category": "Kültür",
-        "image": "f6fcdc17-261b-4c1a-b56f-062249675f58.png",
-        "date": "2025-05-25 19:49:54",
+        "image": "948c3216-0094-4547-9409-299aec93e5e9.jpg",
+        "date": "2025-05-29 13:05:10",
         "creator_id": 1
     }
 ]
